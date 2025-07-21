@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mixedplugin:block/raw_test_block"
+    }
+  }
+}
