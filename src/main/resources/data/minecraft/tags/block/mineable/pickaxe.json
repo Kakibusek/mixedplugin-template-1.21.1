@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+      "mixedplugin:test_block_ore",
+      "mixedplugin:raw_test_block",
+      "mixedplugin:test_block"
+  ]
+}

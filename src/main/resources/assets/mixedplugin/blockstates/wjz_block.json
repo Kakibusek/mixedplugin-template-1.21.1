@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mixedplugin:block/wjz_block"
+    }
+  }
+}

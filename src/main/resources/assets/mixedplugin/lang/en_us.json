@@ -1,0 +1,9 @@
+{
+  "item.mixedplugin.test_item": "Test Item",
+  "item.mixedplugin.tnt": "TNT 2D VERSION",
+  "itemGroup.mixedplugin": "Mixed Plugin",
+  "block.mixedplugin.test_block": "Test Block",
+  "block.mixedplugin.test_block_ore": "Test Block Ore",
+  "block.mixedplugin.raw_test_block": "Raw Test Block",
+  "block.mixedplugin.wjz_block": "WJZ Block"
+}
