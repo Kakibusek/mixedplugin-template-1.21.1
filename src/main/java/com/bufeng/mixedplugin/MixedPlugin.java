@@ -3,6 +3,7 @@ package com.bufeng.mixedplugin;
 import com.bufeng.mixedplugin.block.ModBlocks;
 import com.bufeng.mixedplugin.item.ModItemGroups;
 import com.bufeng.mixedplugin.item.ModItems;
+import com.bufeng.mixedplugin.mixin.GrassColorsMixin;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,6 +16,7 @@ public class MixedPlugin implements ModInitializer {
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+
 
 	@Override
 	public void onInitialize() {
@@ -31,6 +33,12 @@ public class MixedPlugin implements ModInitializer {
 		//Register item groups
 		ModItemGroups.registerModItemGroups();
 
+		int[] colorMap = GrassColorsMixin.getColorMap();
+		LOGGER.info("Grass Colors Length: {}", colorMap.length);
+
+		int[] newColorMap = new int[128];
+		GrassColorsMixin.setColorMap(newColorMap);
+		LOGGER.info("New Grass Colors Length: {}", GrassColorsMixin.getColorMap().length);
 		// Send a message to the console
 		LOGGER.info("Hello Fabric world!");
 

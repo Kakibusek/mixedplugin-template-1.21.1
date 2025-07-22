@@ -10,6 +10,7 @@ base {
 	archivesName = project.archives_base_name
 }
 
+
 repositories {
 	maven {
 		url 'https://maven.aliyun.com/nexus/content/groups/public'
@@ -57,6 +58,8 @@ java {
 	sourceCompatibility = JavaVersion.VERSION_21
 	targetCompatibility = JavaVersion.VERSION_21
 }
+
+// ... existing code ...
 
 jar {
 	inputs.property "archivesName", project.base.archivesName

@@ -1,6 +1,9 @@
 {
   "item.mixedplugin.test_item": "Test Item",
   "item.mixedplugin.tnt": "TNT 2D VERSION",
+  "item.mixedplugin.raw_test_item": "Raw Test Item",
+  "item.mixedplugin.lcf_chicken": "LCF Chicken",
+  "item.mixedplugin.lcf_pork": "LCF Pork",
   "itemGroup.mixedplugin": "Mixed Plugin",
   "block.mixedplugin.test_block": "Test Block",
   "block.mixedplugin.test_block_ore": "Test Block Ore",
