@@ -31,6 +31,11 @@ public class ModItemGroups {
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.TEST_ITEM);
                             entries.add(ModItems.TNT);
+                            entries.add(ModItems.RAW_TEST_ITEM);
+                            entries.add(ModItems.LCF_CHICKEN);
+                            entries.add(ModItems.LCF_PORK);
+                            entries.add(ModItems.DZQ_COAL);
+                            entries.add(ModItems.PROSPECTOR);
 
                             entries.add(ModBlocks.TEST_BLOCK);
                             entries.add(ModBlocks.TEST_BLOCK_ORE);
