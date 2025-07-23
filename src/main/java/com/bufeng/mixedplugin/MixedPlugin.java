@@ -16,6 +16,7 @@ public class MixedPlugin implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -31,7 +32,15 @@ public class MixedPlugin implements ModInitializer {
 		//Register item groups
 		ModItemGroups.registerModItemGroups();
 
+//		int[] colorMap = GrassColorsMixin.getColorMap();
+//		LOGGER.info("Grass Colors Length: {}", colorMap.length);
+//
+//		int[] newColorMap = new int[128];
+//		GrassColorsMixin.setColorMap(newColorMap);
+//		LOGGER.info("New Grass Colors Length: {}", GrassColorsMixin.getColorMap().length);
 		// Send a message to the console
+
+//		FuelRegistry.INSTANCE.add(ModItems.DZQ_COAL, 20000);
 		LOGGER.info("Hello Fabric world!");
 
 	}
