@@ -15,7 +15,7 @@ public class ModBlocks {
     public static final Block TEST_BLOCK_ORE = register("test_block_ore", new Block(AbstractBlock.Settings.create().requiresTool().strength(4.5f, 6.0f)));
     public static final Block RAW_TEST_BLOCK = register("raw_test_block", new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f, 3.0f)));
     public static final Block WJZ_BLOCK = register("wjz_block", new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f)));
-
+    public static final Block DZQ_COAL_BLOCK = register("dzq_coal_block", new Block(AbstractBlock.Settings.create().strength(4.5f, 6.0f)));
     //Register Block Items
     public static void registerBlockItems(String id, Block block) {
         Item item = Registry.register(Registries.ITEM, Identifier.of(MixedPlugin.MOD_ID, id), new BlockItem(block, new Item.Settings()));

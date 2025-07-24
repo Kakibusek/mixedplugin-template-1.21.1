@@ -31,11 +31,18 @@ public class ModItemGroups {
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.TEST_ITEM);
                             entries.add(ModItems.TNT);
+                            entries.add(ModItems.RAW_TEST_ITEM);
+                            entries.add(ModItems.LCF_CHICKEN);
+                            entries.add(ModItems.LCF_PORK);
+                            entries.add(ModItems.DZQ_COAL);
+                            entries.add(ModItems.PROSPECTOR);
+                            entries.add(ModItems.STARDUST_JELLY);
 
                             entries.add(ModBlocks.TEST_BLOCK);
                             entries.add(ModBlocks.TEST_BLOCK_ORE);
                             entries.add(ModBlocks.RAW_TEST_BLOCK);
                             entries.add(ModBlocks.WJZ_BLOCK);
+                            entries.add(ModBlocks.DZQ_COAL_BLOCK);
                         })
                         .build());
         MixedPlugin.LOGGER.info("Registering Mod Item Groups for " + MixedPlugin.MOD_ID);

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "mixedplugin_test",
+  "key": {
+    "X": {
+      "item": "mixedplugin:dzq_coal"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mixedplugin:dzq_coal_block"
+  }
+}
