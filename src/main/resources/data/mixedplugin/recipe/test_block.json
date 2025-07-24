@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "mixedplugin_test",
+  "key": {
+    "X": {
+      "item": "mixedplugin:test_item"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mixedplugin:test_block"
+  }
+}

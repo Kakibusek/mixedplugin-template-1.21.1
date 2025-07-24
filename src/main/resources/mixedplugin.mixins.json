@@ -3,6 +3,7 @@
   "package": "com.bufeng.mixedplugin.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "AbstractFurnaceBlockEntityMixin",
     "ExampleMixin"
   ],
   "injectors": {
@@ -10,5 +11,7 @@
   },
   "overwrites": {
     "requireAnnotations": true
-  }
+  },
+  "client": [
+  ]
 }

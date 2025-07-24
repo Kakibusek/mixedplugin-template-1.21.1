@@ -10,6 +10,7 @@ base {
 	archivesName = project.archives_base_name
 }
 
+
 repositories {
 	maven {
 		url 'https://maven.aliyun.com/nexus/content/groups/public'
@@ -37,6 +38,7 @@ dependencies {
 }
 
 processResources {
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE  // 添加这行
 	inputs.property "version", project.version
 
 	filesMatching("fabric.mod.json") {
@@ -57,6 +59,8 @@ java {
 	sourceCompatibility = JavaVersion.VERSION_21
 	targetCompatibility = JavaVersion.VERSION_21
 }
+
+// ... existing code ...
 
 jar {
 	inputs.property "archivesName", project.base.archivesName

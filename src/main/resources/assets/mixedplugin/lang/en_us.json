@@ -1,9 +1,18 @@
 {
   "item.mixedplugin.test_item": "Test Item",
   "item.mixedplugin.tnt": "TNT 2D VERSION",
+  "item.mixedplugin.raw_test_item": "Raw Test Item",
+  "item.mixedplugin.lcf_chicken": "LCF Chicken",
+  "item.mixedplugin.lcf_pork": "LCF Pork",
+  "item.mixedplugin.dzq_coal": "DZQ Coal",
+  "item.mixedplugin.prospector": "Ore Prospector",
+  "item.mixedplugin.stardust_jelly": "Stardust Jelly",
   "itemGroup.mixedplugin": "Mixed Plugin",
   "block.mixedplugin.test_block": "Test Block",
   "block.mixedplugin.test_block_ore": "Test Block Ore",
   "block.mixedplugin.raw_test_block": "Raw Test Block",
-  "block.mixedplugin.wjz_block": "WJZ Block"
+  "block.mixedplugin.wjz_block": "WJZ Block",
+  "block.mixedplugin.dzq_coal_block": "DZQ Coal Block",
+  "item.mixedplugin.prospector.tooltip": "Right Click to prospect fuzzily,while hold \u00A76SHIFT\u00A7r on this item for more info",
+  "item.mixedplugin.prospector.shift_tooltip": "Shift Right Click to prospect precisely"
 }

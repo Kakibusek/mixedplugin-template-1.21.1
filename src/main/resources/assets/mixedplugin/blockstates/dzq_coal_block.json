@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mixedplugin:block/dzq_coal_block"
+    }
+  }
+}
